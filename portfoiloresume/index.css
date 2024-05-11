@@ -1,0 +1,288 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--secondary);
+    font-family: "Poppins", sans-serif;
+}
+:root{
+    --primary: #ffffff; 
+    --secondary: #D1E4D1;
+    --text: #121481;                 
+    --style: #5432D3;
+    --black: #000000;
+    --green: #1B4242;
+    --lightgreen: #BFEA7C;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.container{
+    height: 80%;
+    border-radius: 10px;
+    width: 90%;
+    overflow: scroll;
+    background-color: var(--primary);
+}
+.container .sub-container{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+.container .sub-container .image{
+    height: 70%;
+    width: 30%;
+    position: fixed;
+    left: 7%;
+    bottom: 15%;
+}
+.container .sub-container .image img{
+    height: 100%;
+    border-radius: 10px;
+    width: 100%;
+    display: block;
+}
+.container .sub-container .image1{
+    height: 70%;
+    width: 30%;
+    position: fixed;
+    left: 7%;
+    bottom: 15%;
+}
+
+.container .sub-container .image1 img{
+    display: none;
+    height: 100%;
+    width: 100%;
+}
+.container .sub-container .image2{
+    height: 70%;
+    width: 30%;
+    position: fixed;
+    left: 7%;
+    bottom: 15%;
+}
+
+.container .sub-container .image2 img{
+    display: none;
+    height: 100%;
+    width: 100%;
+}
+.container .sub-container .image3{
+    height: 70%;
+    width: 30%;
+    position: fixed;
+    left: 7%;
+    bottom: 15%;
+}
+.container .sub-container .image3 img{
+    display: none;
+    height: 100%;
+    width: 100%;
+}
+.container .sub-container .image4{
+    height: 70%;
+    width: 30%;
+    position: fixed;
+    left: 7%;
+    bottom: 15%;
+}
+.container .sub-container .image4 img{
+    display: none;
+    height: 100%;
+    width: 100%;
+}
+
+.container .sub-container .content-bar{
+    height: 100%;
+    width: 100%;
+}
+.container .sub-container .content-bar .link-items{
+    height: 100%;
+    width: 60%;
+    margin-left: 40%;
+    border-radius: 10px;
+    padding: 20px;
+}
+.container .sub-container .content-bar .link-items .links{
+    position: fixed;
+    top: 10%;
+    width: 55%;
+    right: 6%;
+    padding: 10px;
+    background-color: var(--primary);
+    border-radius: 10px;
+}
+
+.container .sub-container .content-bar .link-items .links ul{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    list-style: none;
+    margin-left: 10%;
+    align-items: center;
+}
+.container .sub-container .content-bar .link-items .links ul a{
+    text-decoration: none;
+    color: var(--black);
+    border-bottom: 2px solid transparent;
+    transition: all 0.5s ease-in-out;
+}
+.container .sub-container .content-bar .link-items .links ul button{
+    background-color: var(--primary);
+    padding: 5px 15px;
+    border-radius: 10px;
+    border: 1px solid var(--black);
+    font-weight: 600;
+    transition: all 0.4s linear;
+}
+.container .sub-container .content-bar .link-items .links ul button:hover{
+    transform: translateY(-10px);
+    background-color: var(--style);
+    color: var(--primary);
+    border: 1px solid var(--primary);
+}
+.container .sub-container .content-bar .link-items .links ul a:hover{
+    border-bottom: 2px solid var(--style);
+    border-radius: 5px;
+}
+.container .sub-container .content-bar .link-items .links ul a i{
+    color: var(--green);
+}
+.person-deatils{
+    margin-top: 25%;
+}
+.person-deatils h3 span{
+    color: var(--style);
+    font-size: 25px;
+}
+.person-deatils h1{
+    color: var(--green);
+    margin-top: 20px;
+}
+.person-deatils h1 span{
+    color: var(--style);
+}
+.person-deatils p span{
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--lightgreen);
+}
+/* ------------------------home page finish here----------------- */
+.container-2{
+    height: 100%;
+    width: 100%;
+}
+.content-2{
+    height: 100%;
+    width: 60%;
+    margin-left: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.education-content{
+    height: 90%;
+    margin-top: 20px;
+    width: 100%;
+}
+.education-content p{
+    color: var(--green);
+    border-bottom: 2px solid var(--lightgreen);
+}
+.education-content h3{
+    color: var(--text);
+}
+
+.education-content h3 span{
+    font-size: 15px;
+    color: black;
+}
+.education-content h3 i{
+    color: rgb(175, 119, 23);
+}
+.education-content h5 span{
+    color: var(--style);
+}
+/* ------------------------------about page finish here---------------------- */
+.container-3{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-3{
+    height: 80%;
+    width: 60%;
+    margin-left: 40%;
+    padding: 20px;
+}
+.content-3 p{
+    color: var(--green);
+    border-bottom: 2px solid var(--lightgreen);
+}
+.skills{
+    height: 80%;
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.skills .division h1{
+    color: var(--text);
+    border-bottom: 2px solid var(--lightgreen);
+}
+.skills .division h3{
+    color: var(--style);
+}
+
+/* ---------------------------------qualification page finish here----------------------------- */
+
+.container-4{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-4{
+    height: 80%;
+    width: 60%;
+    margin-left: 40%;
+    padding: 20px;
+}
+.content-4 p{
+    border-bottom: 2px solid var(--lightgreen);
+}
+.contact-us{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.content-4 h1{
+    border-bottom: 2px solid var(--style);
+}
+.contact-us .div{
+    margin-bottom: 10%;
+}
+.contact-us .div a i{
+    font-size: 70px;
+    color: var(--style);
+    transition: all 0.5s ease-in-out;
+}
+.contact-us .div a i:hover{
+    transform: translateY(-20px);
+}
